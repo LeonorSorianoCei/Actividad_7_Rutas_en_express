@@ -1,0 +1,17 @@
+{
+  "name": "actividad_7_rutas_en_express",
+  "version": "1.0.0",
+  "description": "a partir del siguiente JSON:\r ```json\r {\r \"libros\": [\r {\r      \"id\": 1,\r      \"titulo\": \"El nombre del viento\",\r      \"autor\": \"Patrick Rothfuss\",\r      \"categoria\": \"Fantasía\"\r },\r {\r      \"id\": 2,\r      \"titulo\": \"1984\",\r      \"autor\": \"George Orwell\",\r      \"categoria\": \"Ciencia ficción\"\r },\r {\r      \"id\": 3,\r      \"titulo\": \"Cien años de soledad\",\r      \"autor\": \"Gabriel García Márquez\",\r      \"categoria\": \"Realismo mágico\"\r }\r ]\r }\r ```",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  }
+}
